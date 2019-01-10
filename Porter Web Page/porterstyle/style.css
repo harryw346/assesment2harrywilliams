@@ -1,0 +1,286 @@
+#shelterTitle{
+	color: white;
+	font-family: "Helvetica", Times, serif;
+}
+
+.bodyText{
+	color: black;
+}
+body,
+html{
+	min-height:100%;
+}
+
+body{
+	background-image:url(../Assets/voices.JPG);
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+.instagram{
+	text-indent: -999999px;
+	background: url(../Assets/insta64.png);
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom:0px;
+	left:40%;
+	animation: fadeIn 5s;
+	}
+.facebook{
+	text-indent: -999999px;
+	background: url(../Assets/face64.png);
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom:0px;
+	left:50%;
+	animation: fadeIn 5s;
+	}
+.twitter{
+	text-indent: -999999px;
+	background: url(../Assets/twiter64.png);
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom:0px;
+	left:60%;
+	animation: fadeIn 5s;
+	}
+.shelterlogo{
+	text-indent: -999999px;
+	background: url(../Assets/shelternew.png);
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	bottom:150px;
+	left:38%;
+	animation: fadeIn 3s;
+	}
+
+.aboutcontainer {
+  position: relative;
+  border-radius: 100px;
+  left: 320px;
+  bottom: -320px;
+  width: 200px;
+  height: 200px;
+  animation: fadeIn 10s;
+}
+
+.aboutimage{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  left:20%;
+  bottom:145px;
+}
+
+.aboutoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFF0F5;
+  border-radius: 100px;
+  }
+
+.aboutcontainer:hover .aboutoverlay {
+  opacity: .8;
+}
+
+.abouttext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Helvetica", Times, serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  .tourcontainer {
+  position: relative;
+  border-radius: 100px;
+  right: -930px;
+  bottom: -120px;
+  width: 200px;
+  height: 200px;
+  animation: fadeIn 10s;
+}
+
+.tourimage{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  left:20%;
+  bottom:145px;
+}
+
+.touroverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFF0F5;
+  border-radius: 100px;
+}
+
+.tourcontainer:hover .touroverlay {
+  opacity: .8;
+}
+
+.tourtext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Helvetica", Times, serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+ .musiccontainer {
+  position: relative;
+  border-radius: 100px;
+  right: -930px;
+  top: -360px;
+  width: 200px;
+  height: 200px;
+  animation: fadeIn 10s;
+}
+
+.musicimage{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  left:20%;
+  bottom:145px;
+}
+
+.musicoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFF0F5;
+  border-radius: 100px;
+}
+
+.musiccontainer:hover .musicoverlay {
+  opacity: .8;
+}
+
+.musictext {
+  color: black;
+  font-size: 20px;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  .storecontainer {
+  position: relative;
+  border-radius: 100px;
+  left: 320px;
+  top: -550px;
+  width: 200px;
+  height: 200px;
+  animation: fadeIn 10s;
+}
+
+.storeimage{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  left:20%;
+  bottom:145px;
+}
+
+.storeoverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFF0F5;
+  border-radius: 100px;
+}
+
+.storecontainer:hover .storeoverlay {
+  opacity: .8;
+}
+
+.storetext {
+  color: black;
+  font-size: 20px;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+
+
+}	
+
+}
+
+}
+}

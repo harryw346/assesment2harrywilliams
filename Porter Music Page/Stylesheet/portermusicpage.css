@@ -1,0 +1,82 @@
+body{
+	background-image:url(../Assets/portermusicpagehome.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+#MainTitle{
+  color: white;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  left:40%;
+  animation: fadeIn 3s;
+  }
+
+.sadmachine {
+  position: relative;
+  border-radius: 100px;
+  left: 200px;
+  bottom: -150px;
+  width: 300px;
+  height: 380px;
+  }
+
+  .shelter {
+  position: relative;
+  border-radius: 100px;
+  left: 600px;
+  bottom: 230.5px;
+  width: 300px;
+  height: 380px;
+  }
+
+
+  .yearsofwar {
+  position: relative;
+  border-radius: 100px;
+  left: 1000px;
+  bottom: 610px;
+  width: 300px;
+  height: 380px;
+  }
+  .HomeButton{
+  color: black;
+  background-color: #FFF0F5;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  animation: fadeIn 3s;
+  font-size: 20px;
+  } 
+
+  .TourButton{
+  color: black;
+  background-color: #FFF0F5;
+  top:100px;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  font-size: 20px;
+  animation: fadeIn 3s;
+  }
+
+  .StoreButton{
+  color: black;
+  top:60px;
+  font-size: 20px;
+  background-color: #FFF0F5;
+  font-family: "Helvetica", Times, serif;
+  position: absolute;
+  animation: fadeIn 3s;
+  } 
+
+  @keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+
+
+}
+}
+
